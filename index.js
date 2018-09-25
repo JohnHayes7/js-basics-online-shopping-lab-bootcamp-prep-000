@@ -59,6 +59,9 @@ function removeFromCart(item) {
       test=true;
     }
   }
+  if (test !== true){
+    return "That item is not in your cart.";
+  }
     return result;
 }
 
